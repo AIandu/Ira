@@ -4,10 +4,14 @@
 USER_PROFILE = {
     "first_name": "Loretta",
     "middle_name": "Ann",
-    "last_name": "Chapman",
+    "last_names": ["Chapman", "Branch", "Maggard"],
     "past_addresses": [
         {"state": "NC", "zip": "28560", "city": "New Bern"},
-        {"state": "NC", "zip": "28562", "city": "New Bern"}
+        {"state": "NC", "zip": "28562", "city": "New Bern"} 
+        {"state": "NC", "zip": "27526", "city": "fuquay varina"},
+        {"state": "NC", "zip": "27511", "city": "Cary"},
+        {"state": "NC", "zip": "27513", "city": "Cary"}
+        {"state": "NC", "zip": "27518", "city": "Cary"} 
     ],
     "target_employers": [
         "Target",
