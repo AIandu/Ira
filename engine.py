@@ -1,11 +1,12 @@
 # engine.py
 
 class AssetHunterEngine:
-    def __init__(self, profile):
+        def __init__(self, profile):
         self.profile = profile
         self.first = profile["first_name"].upper()
         self.middle = profile["middle_name"].upper()
-        self.last = profile["last_name"].upper()
+        self.all_lasts = [ln.upper() for ln in profile["last_names"]]
+        
 
     def generate_identity_matrix(self):
         """Builds every possible variation of your legal name profile."""
