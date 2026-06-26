@@ -10,8 +10,12 @@ USER_PROFILE = {
         {"state": "NC", "zip": "28562", "city": "New Bern"}
     ],
     "target_employers": [
-        "Example Past Employer LLC",
-        "Another Old Job Inc"
+        "Target",
+        "CCB bank"
+        " First Union Bank"
+        "Molly Maids"
+        "Mac Kilwean Turf Farm"
+        
     ]
 }
 
